@@ -324,7 +324,7 @@ class StoryDiffusion_CLIPTextEncode:
                                                "default": "bad anatomy, bad hands, missing fingers, extra fingers,three hands, three legs, bad arms, missing legs, missing arms, poorly drawn "
                                                           "face, bad face, fused face, cloned face, three crus, fused feet, fused thigh, extra crus, ugly fingers, horn,amputation, disconnected limbs"}),
                 "lora_trigger_words": ("STRING", {"default": "best quality"}),
-                "add_style": (["No_style", "Realistic", "Japanese_Anime", "Digital_Oil_Painting", "Pixar_Disney_Character","Photographic", "Comic_book","Line_art", "Black_and_White_Film_Noir", "Isometric_Rooms", "Chinese_Painting"],),
+                "add_style": (["No_style", "Realistic", "Japanese_Anime", "Digital_Oil_Painting", "Pixar_Disney_Character","Photographic", "Comic_book","Line_art", "Black_and_White_Film_Noir", "Isometric_Rooms", "Ghibli_Style", "Chinese_Painting"],),
                 "mask_threshold": (
                     "FLOAT", {"default": 0.5, "min": 0.0, "max": 1.0, "step": 0.1, "round": 0.01}),
                 "extra_param":("STRING", {"default": ""}),

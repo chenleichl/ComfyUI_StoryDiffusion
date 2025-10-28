@@ -50,6 +50,11 @@ style_list = [
         "negative_prompt": "photorealistic,35mm film,deformed,glitch,blurry,noisy,off-center,deformed,cross-eyed,closed eyes,ugly,disfigured,mutated,realism,realistic,impressionism,expressionism,acrylic,lowres,text,error,extra digit,fewer digits,cropped, worst quality, low quality, normal quality, jpeg artifacts, signature,watermark, username,",
     },
     {
+        "name": "Ghibli_Style",
+        "prompt": "{prompt} (by Hayao Miyazaki 1.5), (Studio Ghibli style 1.3), (Chihiro from Spirited Away character style 1.4),(Ponyo style 1.4), (Nausicaä style 1.3) (Pazu style 1.2), (Sheeta style 1.2), (soft pastel colors 1.1), hand-drawn, cel-shaded,magical atmosphere, whimsical, cinematic composition, detail background, muted warm colors, gentle color transitions",
+        "negative_prompt": "3d, blender, octane, ugly, deformed, distorted, lowres, low quality, bad anatomy, bad face, text, watermark, signature, harsh lighting, harsh colors",
+    },
+    {
         "name": "Chinese_Painting",
         "prompt": "{prompt} (Chinese ink wash painting 1.1), (by Xu Beihong and Qi Baishi style 1.2), expressive brushstrokes, xuan paper, poetic minimalism, elegant and powerful, monochrome ink tones",
         "negative_prompt": "(seal 1.5), (stamp 1.5), (chop 1.5), (red stamp 1.5), red seal, worst quality, low quality, normal quality, lowres, bad anatomy, bad hands, deformed hands, fused fingers, missing fingers, extra limbs, long neck, watermark, signature, text, title, username,cartoon, 3d, render, cg, pixel art, anime, western comic, oil painting, photorealistic, digital art, vibrant colors, saturated colors, colorful, glossy, overexposed, underexposed, grainy, blurry, messy composition",
