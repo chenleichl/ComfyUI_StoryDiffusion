@@ -11,7 +11,7 @@ style_list = [
     },
     {
         "name": "Japanese_Anime",
-        "prompt": "{prompt} (anime key visual:1.5), (by CLAMP:1.4),  Chobits style, detailed anime illustration, clean line art, elegant composition, expressive eyes, soft cel shading, thin outlines, masterpiece, best quality",
+        "prompt": "(masterpiece, best quality, anime screenshot 1.1), (anime key visual:1.4), (by CLAMP:1.3), {prompt},  Chobits style, detailed anime illustration, clean line art, elegant composition, expressive eyes, soft cel shading, thin outlines, masterpiece, best quality",
         "negative_prompt": "lowres,text, error, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
     },
     {
@@ -21,7 +21,7 @@ style_list = [
     },
     {
         "name": "Pixar_Disney_Character",
-        "prompt": "{prompt}  (Pixar style 3D character design 1.5), (Disney style 1.5), Unreal Engine 5 render, vibrant color palette, soft volumetric lighting, incredibly detailed, expressive eyes, trending on CGSociety and Artstation, 8k. The scene is vibrant, motivational, filled with vivid colors and a sense of wonder.",
+        "prompt": "3d cartoon style, {prompt}, (Pixar style 3D character design 1.5), (Disney style 1.2), Unreal Engine 5 render, vibrant color palette, soft volumetric lighting, incredibly detailed, expressive eyes, sparkling gaze, lively pupils, trending on CGSociety and Artstation, 8k. vibrant scene, motivational, vivid colors and a sense of wonder.",
         "negative_prompt": "lowres, text, bad eyes, bad legs, error,extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, blurry, grayscale, noisy, sloppy, messy, grainy,ultra textured,",
     },
     {
@@ -31,34 +31,34 @@ style_list = [
     },
     {
         "name": "Comic_book",
-        "prompt": "{prompt} (Bruce Timm style:1.4),  (inked by Kevin Nowlan:1.3), American comic book art, bold ink lines, sharp angular anatomy, cel-shaded, limited color palette, heroic expression, 2D illustration.",
+        "prompt": "American colorful comic book art {prompt}, (Bruce Timm style:1.4), (inked by Kevin Nowlan:1.3),  (Bold colors 1.1), bold ink lines, sharp angular anatomy, cel-shaded, limited color palette, heroic expression, 2D illustration.",
         "negative_prompt": "photograph, deformed, glitch, noisy, realistic, stock photo, lowres,text, error,extra digit, fewer digits, cropped, worst quality, low quality, normal quality,signature, watermark, username, blurry",
     },
     {
         "name": "Line_art",
-        "prompt": "{prompt}  (line art style:1.4), (clean black and white ink drawing:1.3), (fine outlines:1.3), (minimal shading), (contour emphasis), (studio ghibli storyboard style:1.2), masterful composition, perfect perspective, expressive linework, smooth flow, elegant silhouette, sketchbook aesthetic, white background, (anime illustration:1.1), high detail, ultra clean, minimalist composition, precise form definition",
-        "negative_prompt": "photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes,ugly, disfigured, mutated, realism, realistic, impressionism, expressionism,acrylic, lowres, text, error,extra digit, fewer digits,  worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username",
+        "prompt": "(line art drawing without skin details 1.5) {prompt} professional, (line art comic face and body:1.4), (clean black and white ink drawing:1.3), (fine outlines:1.3), (minimal shading), (contour emphasis), (studio ghibli storyboard style:1.2), (no skin shading 1.1), masterful composition, perfect perspective, expressive linework, smooth flow, elegant silhouette, sketchbook aesthetic, white background, (anime illustration:1.1), ultra clean, minimalist composition, precise form definition",
+        "negative_prompt": "photorealistic, 35mm film, soft shading, skin texture, smooth skin, shading on face or body, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes,ugly, disfigured, mutated, realism, realistic, impressionism, expressionism,acrylic, lowres, text, error,extra digit, fewer digits,  worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username",
     },
     {
         "name": "Black_and_White_Film_Noir",
-        "prompt": "{prompt}  (b&w, Monochromatic, Film Photography:1.3), film noir, analog style, soft lighting, subsurface scattering,heavy shadow, masterpiece, best quality,",
+        "prompt": "{prompt} (b&w, Monochromatic, Film Photography:1.3), film noir, analog style, soft lighting, subsurface scattering,heavy shadow, masterpiece, best quality,",
         "negative_prompt": "anime, photorealistic, 35mm film, deformed, glitch, blurry, noisy, off-center, deformed, cross-eyed, closed eyes,ugly, disfigured, mutated, impressionism, expressionism,acrylic, lowres,text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username",
     },
     {
         "name": "Isometric_Rooms",
-        "prompt": "{prompt}  (Hyper-detailed 3D character figurine 1.5), (realistic PVC toy texture 1.3), tiny cute isometric, soft cinematic lighting, studio setup, shallow depth of field, rendered in blender, premium collectible figure, elegant pose, 100mm macro lens, smooth plastic skin, realistic materials, high-quality render",
-        "negative_prompt": "photorealistic,35mm film,deformed,glitch,blurry,noisy,off-center,deformed,cross-eyed,closed eyes,ugly,disfigured,mutated,realism,realistic,impressionism,expressionism,acrylic,lowres,text,error,extra digit,fewer digits,cropped, worst quality, low quality, normal quality, jpeg artifacts, signature,watermark, username,",
+        "prompt": "(Hyper-detailed 3D character figurine 1.5), (realistic PVC toy texture 1.3), tiny cute isometric, {prompt}, soft cinematic lighting, studio setup, shallow depth of field, rendered in blender, premium collectible figure, elegant pose, 100mm macro lens, smooth plastic skin, realistic materials, high-quality render, detail background",
+        "negative_prompt": "photorealistic,35mm film,deformed,glitch,blurry,noisy,off-center,deformed,cross-eyed,closed eyes,bad anatomy, bad hands, deformed hands, fused fingers, missing fingers,ugly,disfigured,mutated,realism,realistic,impressionism,expressionism,acrylic,lowres,text,error,extra digit,fewer digits,cropped, worst quality, low quality, normal quality, jpeg artifacts, signature,watermark, username,",
     },
     {
         "name": "Ghibli_Style",
-        "prompt": "{prompt} (by Hayao Miyazaki 1.5), (Studio Ghibli style 1.3), (Chihiro from Spirited Away character style 1.4),(Ponyo style 1.4), (Nausicaä style 1.3) (Pazu style 1.2), (Sheeta style 1.2), (soft pastel colors 1.1), hand-drawn, cel-shaded,magical atmosphere, whimsical, cinematic composition, detail background, muted warm colors, gentle color transitions",
-        "negative_prompt": "3d, blender, octane, ugly, deformed, distorted, lowres, low quality, bad anatomy, bad face, text, watermark, signature, harsh lighting, harsh colors",
+        "prompt": "(masterpiece, best quality, anime screenshot 1.1), (by Hayao Miyazaki 1.5), (Studio Ghibli style 1.5),(Chihiro from Spirited Away character style 1.5),(Ponyo style 1.4), (Nausicaä style 1.3) (Pazu style 1.2), (Sheeta style 1.2), (soft pastel colors 1.1), anime scenario: {prompt}.  hand-drawn, cel-shaded, magical atmosphere, whimsical, cinematic composition, detail background, muted warm colors, gentle color transitions.",
+        "negative_prompt": "skin pores, skin texture, skin details, octane render, c4d, unreal engine, cinema4d, hyper-realistic,bad anatomy, bad hands, deformed hands, fused fingers, missing fingers, 3d, blender, octane, ugly, deformed, distorted, lowres, low quality, bad anatomy, bad face, text, watermark, signature, harsh lighting, harsh colors",
     },
     {
         "name": "Chinese_Painting",
         "prompt": "{prompt} (Chinese ink wash painting 1.1), (by Xu Beihong and Qi Baishi style 1.2), expressive brushstrokes, xuan paper, poetic minimalism, elegant and powerful, monochrome ink tones",
         "negative_prompt": "(seal 1.5), (stamp 1.5), (chop 1.5), (red stamp 1.5), red seal, worst quality, low quality, normal quality, lowres, bad anatomy, bad hands, deformed hands, fused fingers, missing fingers, extra limbs, long neck, watermark, signature, text, title, username,cartoon, 3d, render, cg, pixel art, anime, western comic, oil painting, photorealistic, digital art, vibrant colors, saturated colors, colorful, glossy, overexposed, underexposed, grainy, blurry, messy composition",
     }
-]
-
+]    
+     
 styles = {k["name"]: (k["prompt"], k["negative_prompt"]) for k in style_list}
